@@ -1,6 +1,7 @@
 const boom = document.getElementById("boom");
 const boombutton = document.getElementById("boombutton");
 
+//add separate event listeners and connect them to the sounds
 boombutton.addEventListener("click", () => {
   boom.play();
 });
